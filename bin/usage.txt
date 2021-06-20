@@ -1,0 +1,3 @@
+没写文件输入，Scene硬编码至code中。
+把.exe放在根目录下，运行生成对应的out/img_xxx.png
+图片较大，渲染较慢，结果图已存在pic_example/中
