@@ -137,7 +137,7 @@ Vector3 WideAngleSampler::point(int i, int j, int ss_i, int ss_j) const override
 
 [sampler类](sampler.h)同时支持SSAA（效率有所牺牲）（代码见上）
 
-![SSAA.png](pic_example\SSAA.png)
+![SSAA.png](pic_example/SSAA.png)
 
 ### 3. 软阴影
 
@@ -218,7 +218,7 @@ public:
 
 实现了Bezier曲线回转体的求交，但迭代时容易出现收敛到错解的情况，导致噪点出现，故未在最终展示图中添加。下图为一个单独的参数曲面（材质具有一定透明度、镜面反射率）：
 
-![bezier.png](pic_example\img_bezier.png)
+![bezier.png](pic_example/img_bezier.png)
 
 可以看到，仍有一些噪点存在。迭代过程如下：
 
